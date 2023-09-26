@@ -275,3 +275,37 @@ p{
         position: relative;
     }
 }
+@media (max-width:518px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    p{
+        width: 200px;
+        color: #fff;
+        top: 150px;
+        right: 140px;
+        line-height: 22px;
+        text-align: center;
+        position: absolute;
+    }
+    .section {
+        width: 300px;
+    }
+    h1{
+        font-size: 40px;
+        top: -50px;
+        right: 10px;
+        text-align: center;
+    }
+    .btn{
+        position: relative;
+        top: 290px;
+        right: 170px;
+    }
+    .navbar ul li{
+            display: none;
+        } 
+}
+
